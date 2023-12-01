@@ -11,8 +11,8 @@
     secDiv.classList.add("cardlist");
     mainDiv.append(secDiv);
 
-    let contentCard = `<div>
-    <div class="mb-3">
+    let contentCard = `<div class="card">
+    <div class="m-3">
     <label for="searchBox" class="form-label">Indian pincodes only</label>
     <input type="email" class="form-control" id="searchBox" placeholder="Enter Pincode" aria-describedby="emailHelp">
     <div id="contentId" class="form-text"></div>
